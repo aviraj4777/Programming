@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class</title>
+    <style>
+        p:hover {
+            background-color: yellow;
+            color: red;
+        }
+        #input:focus {
+            background-color: black;
+            color: white;
+        }
+        /* a:active{
+            color: pink;
+            background-color: yellow;
+        } */
+        a:first-child {
+            color: red;
+            background-color: aqua;
+        }
+        a:nth-child() {
+            color: red;
+            background-color: aqua;
+        }        
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rerum!</p>
+
+    <input type="text" name="" id="input">
+    <hr>
+
+    <nav>
+        <a href="https://www.udemy.com/home/my-courses/learning/">Udemy - Learning</a>
+        <a href= "https://www.google.com/">Google</a>
+    </nav>
+</body>
+</html>

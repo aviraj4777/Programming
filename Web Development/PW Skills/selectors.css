@@ -1,0 +1,32 @@
+/* Universal Selector */ 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Element Selctor */
+h1 {
+    color: aquamarine;
+    text-align: center;
+}
+p {
+    color: red;
+}
+
+/* Class Selector */
+.head {
+    color: yellow;
+}
+.para {
+    color: blue;
+}
+
+/* ID Selctor */
+#div1 {
+    color:orange;
+}
+
+/* Selector List */
+.head, p, #div1 {
+    color: black;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <fieldset>
+        <legend>User Registration</legend>
+        <label for="username">Enter a username:</label>
+        <input type="text" name="username" id="username">
+        <br>
+        <label for="emailId">Enter Your Email-Id:</label>
+        <input type="email" name="usermail" id="usermail">
+        <br>
+        <label for="userpass">Enter Your Password:</label>
+        <input type="password" name="userpass" id="userpass">
+        <br>
+        <label for="mobnumber">Enter Your Mobile Number</label>
+        <input type="number" name="mobnumber" id="mobnumber">
+        <br>
+        <label for="gender">Your Gender</label> <br>
+        <label for="male" id="gender">Male</label>
+        <input type="radio" name="gender" id="gender" value="male"> <br>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female"> <br>
+
+        <label for="movies">Select Movies</label> <br>
+        <label for="movies">Avengers</label>
+        <input type="checkbox" name="favmovies" id="movies"> <br>
+        <label for="movies">Titanic</label>
+        <input type="checkbox" name="favmovies" id="movies">
+    </fieldset>
+
+    <!-- name is used for backend while id is used for frontend and for is used to link the input id to the label 
+    if we want to create radio buttons then we have to take same id for all the buttons -->
+</body>
+</html>

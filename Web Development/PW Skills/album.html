@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            gap: 10px;
+        }
+
+        .box {
+            overflow: hidden;
+        }
+
+        .boxinsidebox {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 5px;
+        }
+
+        .boxinsidebox > div {
+            background-color: salmon;
+            padding: 8px;
+        }
+
+        .boxinsidebox > .box1 {
+            background-color: yellow;
+            height: 200px;
+            align-self: center;
+        }
+        .boxinsidebox > .box2 {
+            background-color: aqua;
+            height: 200px;
+            align-self: center;
+        }
+        .boxinsidebox > .box3 {
+            background-color: aquamarine;
+            height: 200px;
+            align-self: center;
+        }
+
+        .box1 {
+            background-color: red;
+            /* display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 10px; */
+        }
+
+        .box2 {
+            background-color: green;
+        }
+
+        .box3 {
+            background-color: yellow;
+        }
+
+        .box4 {
+            background-color: pink;
+        }
+
+        .box5 {
+            background-color: brown;
+        }
+
+        .box6 {
+            background-color: purple;
+        }
+
+        .box7 {
+            background-color: violet;
+        }
+
+        .box8 {
+            background-color: lightgreen;
+        }
+
+        .box9 {
+            background-color: magenta;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box box1 boxinsidebox">
+            <!-- <img src="https://images.pexels.com/photos/8132796/pexels-photo-8132796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="image"> -->
+            <div class="box box1"></div>
+            <div class="box box2"></div>
+            <div class="box box3"></div>
+        </div>
+        <div class="box box2"><img
+                src="https://images.pexels.com/photos/8132796/pexels-photo-8132796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="image"></div>
+        <div class="box box3"><img
+                src="https://images.pexels.com/photos/8132796/pexels-photo-8132796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="image"></div>
+        <div class="box box4"><img
+                src="https://images.pexels.com/photos/8132796/pexels-photo-8132796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="image"></div>
+        <div class="box box5"><img
+                src="https://images.pexels.com/photos/8132796/pexels-photo-8132796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="image"></div>
+        <div class="box box6"><img
+                src="https://images.pexels.com/photos/8132796/pexels-photo-8132796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="image"></div>
+        <div class="box box7"><img
+                src="https://images.pexels.com/photos/8132796/pexels-photo-8132796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="image"></div>
+        <div class="box box8"><img
+                src="https://images.pexels.com/photos/8132796/pexels-photo-8132796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="image"></div>
+        <div class="box box9"><img
+                src="https://images.pexels.com/photos/8132796/pexels-photo-8132796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="image"></div>
+    </div>
+</body>
+
+</html>

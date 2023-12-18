@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector (internal CSS)</title>
+    <style>
+        /* Element Selector */
+        p{
+            border: 2px solid red;
+        }
+        /* id selector - It is used to target a particular element*/
+        #firstpara{
+            color:red;
+        }
+        /* Class Selector - It is used for targeting all element with a specified name. */
+        .bgBlue{
+            color: yellow;
+            background-color:blue;
+        }
+        /* Grouping Selector - It is used to target multiple element or to make a group of element which have same style  */
+        footer,span{
+            color:blue;
+            background-color: hotpink;
+        }
+    </style>
+</head>
+<body>
+    <h3>CSS Selectors</h3>
+    <p id="firstpara">This is a simple paragraph to demonstrate css selector</p>
+    <p id="secondPara" class="redElement bgBlue">This is a simple paragraph to demonstrate css selector</p>
+    <div>
+        <p>
+            This is yet another paragraph inside div to demonstrate css selector 
+        </p>
+        <span>This is span</span>
+    </div>
+    <footer>
+        This is footer
+    </footer>
+</body>
+</html>

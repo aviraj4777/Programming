@@ -1,0 +1,27 @@
+body {
+    background-color: red;
+}
+
+div {
+    font-size: x-large;
+    text-align: center;
+}
+
+div::after {
+    content: 'welcome to the demo';
+}
+
+@media (400px <=width <=768px) {
+    body {
+        background-color: yellow;
+    }
+
+    div {
+        font-size: x-large;
+        text-align: center;
+    }
+
+    div::after {
+        content: 'its working';
+    }
+}

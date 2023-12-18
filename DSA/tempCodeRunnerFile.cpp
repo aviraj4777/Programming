@@ -1,0 +1,3 @@
+ersal "<<endl;
+    inorder(root);
+}
